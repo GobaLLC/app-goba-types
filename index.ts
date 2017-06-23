@@ -23,7 +23,7 @@ export namespace GobaTypes {
         Email:2,
         Phone:3,
         Place:4,
-        InApp:5,
+        InAppDestination:5,
         MenuReveal:6,
         Share:7,
         Registration:8,
