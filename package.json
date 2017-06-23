@@ -1,3 +1,6 @@
 {
   "dependencies":{}
+  ,"name":"app-goba-types"
+  ,"description": "Interface definitions for goba Typescript apps."
+  ,"version":"1.0.0"
 }
