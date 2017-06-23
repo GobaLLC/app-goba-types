@@ -114,6 +114,9 @@ export namespace GobaTypes {
         hCss:any;
         hInnerCss:any;
         hImgCss:any;
+        sText:string;
+        sTitleTag:string;
+        sHtml:string;
 
         hImage:any;
         sTag:string;
