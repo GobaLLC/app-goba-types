@@ -47,7 +47,7 @@ export namespace GobaTypes {
         aObjects?: Array<any>;
     }
 
-    export interface IView {
+    export interface View {
         sID?:string,
         sTitle?: string;
         sPlugin?: string;
@@ -62,7 +62,7 @@ export namespace GobaTypes {
         aItems?:Array<any>;
     }
 
-    export interface IFeed {
+    export interface Feed {
         nType?:number;
         sUrl?:string;
         sID?:string;
@@ -87,7 +87,7 @@ export namespace GobaTypes {
 
     }
 
-    export interface IFlex {
+    export interface Flex {
         sID:string;
         sFeedID:string;
         nParentID: number;
@@ -114,7 +114,7 @@ export namespace GobaTypes {
         aTags:Array<string>;
     }
 
-    export interface IConsumer {
+    export interface Consumer {
         sAppTitle?: string;
         sTitle?: string;
         sToken?: string;
@@ -130,7 +130,7 @@ export namespace GobaTypes {
         hAddress?:any;
         hImage?: any;
         Analytics?:any;
-        aMenu?: Array<IView>;
+        aMenu?: Array<View>;
     }
 
     export interface ApiRequest {
