@@ -108,6 +108,12 @@ export namespace GobaTypes {
         nCreated:number;
         nUpdated:number;
         sTitle: string;
+        sOuterClass:string;
+        sInnerClass:string;
+        sImgClass:string;
+        hCss:any;
+        hInnerCss:any;
+        hImgCss:any;
 
         hImage:any;
         sTag:string;
