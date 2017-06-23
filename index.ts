@@ -118,6 +118,7 @@ export namespace GobaTypes {
         sTitleTag:string;
         sHtml:string;
 
+        hForm:any;
         hImage:any;
         sTag:string;
         aTags:Array<string>;
