@@ -140,7 +140,7 @@ export namespace GobaTypes {
         hAddress?:any;
         hImage?: any;
         Analytics?:any;
-        aMenu?: Array<View>;
+        cMenu?: Collection;
     }
 
     export interface ApiRequest {
