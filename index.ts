@@ -120,8 +120,11 @@ export namespace GobaTypes {
 
         hForm:any;
         hImage:any;
+        Items:any;
         sTag:string;
         aTags:Array<string>;
+        aItems:Array<any>;
+        cItems:Collection;
     }
 
     export interface Consumer {
