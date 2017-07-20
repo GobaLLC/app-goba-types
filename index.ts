@@ -90,11 +90,7 @@ export namespace GobaTypes {
     export interface Flex {
         sID:string;
         sFeedID:string;
-        nParentID: number;
-        nParentClass: number;
         nType: number;
-        nObjectID: number;
-        sAppMenuID: string;
         sType:string;
         nOrder:number;
         nCtaType:number;
@@ -103,7 +99,6 @@ export namespace GobaTypes {
         sCtaText:string;
         sCtaStyle:string;
         sCtaUrl:string;
-        nFeedID:number;
         nSecondarySort:number;
         nCreated:number;
         nUpdated:number;
@@ -117,7 +112,8 @@ export namespace GobaTypes {
         sText:string;
         sTitleTag:string;
         sHtml:string;
-
+        sParentPath:string;
+        sPath:string;
         hForm:any;
         hImage:any;
         Items:any;
