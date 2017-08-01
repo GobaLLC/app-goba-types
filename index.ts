@@ -139,7 +139,7 @@ export namespace GobaTypes {
         hAddress?:any;
         hImage?: any;
         Analytics?:any;
-        DomainDefaults?:any;
+        DomainRedirects?:any;
         cMenu?: Collection;
     }
 
