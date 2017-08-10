@@ -121,6 +121,9 @@ export namespace GobaTypes {
         aTags:Array<string>;
         aItems:Array<any>;
         cItems:Collection;
+        _outerStyle:any;
+        _innerStyle:any;
+        _imgStyle:any;
     }
 
     export interface Consumer {
