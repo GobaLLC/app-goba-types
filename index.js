@@ -15,7 +15,8 @@ var GobaTypes;
         SERVER_ERROR: { code: 'SERVER_ERROR', message: 'Something went wrong with request. Please try again.', type: 10 },
         MISSING_CONSUMER: { code: 'SERVER_ERROR', message: 'Something went wrong with request. Please try again.', type: 11 },
         SIGNIN_FAILED: { code: 'PERMISSION_DENIED', message: 'Sign-in failed.', type: 12 },
-        USER_TOKEN_MISMATCH: { code: 'PERMISSION_DENIED', message: 'Permission denied.', type: 13 }
+        USER_TOKEN_MISMATCH: { code: 'PERMISSION_DENIED', message: 'Permission denied.', type: 13 },
+        FEED_IS_PAUSED: { code: 'PAUSED', message: 'Feed is paused.', type }
     };
     GobaTypes.ACTIONS = {
         None: 0,
