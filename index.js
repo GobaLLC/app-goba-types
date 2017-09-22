@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var GobaTypes;
 (function (GobaTypes) {
     GobaTypes.EXCEPTIONS = {
@@ -16,7 +17,8 @@ var GobaTypes;
         MISSING_CONSUMER: { code: 'SERVER_ERROR', message: 'Something went wrong with request. Please try again.', type: 11 },
         SIGNIN_FAILED: { code: 'PERMISSION_DENIED', message: 'Sign-in failed.', type: 12 },
         USER_TOKEN_MISMATCH: { code: 'PERMISSION_DENIED', message: 'Permission denied.', type: 13 },
-        FEED_IS_PAUSED: { code: 'PAUSED', message: 'Feed is paused.', type: 14 }
+        FEED_IS_PAUSED: { code: 'PAUSED', message: 'Feed is paused.', type: 14 },
+        OBJECT_NOT_FOUND: { code: 'NOT_FOUND', message: 'Object not found.', type: 15 }
     };
     GobaTypes.ACTIONS = {
         None: 0,

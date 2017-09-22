@@ -16,6 +16,7 @@ export namespace GobaTypes {
         ,SIGNIN_FAILED:{code:'PERMISSION_DENIED',message:'Sign-in failed.',type:12}
         ,USER_TOKEN_MISMATCH:{code:'PERMISSION_DENIED',message:'Permission denied.',type:13}
         ,FEED_IS_PAUSED:{code:'PAUSED',message:'Feed is paused.',type:14}
+        ,OBJECT_NOT_FOUND:{code:'NOT_FOUND',message:'Object not found.',type:15}
     };
 
     export const ACTIONS = {
